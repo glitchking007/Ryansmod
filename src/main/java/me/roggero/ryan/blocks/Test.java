@@ -7,12 +7,4 @@ public class Test extends Block{
     public Test(Material material){
         super(material);
     }
-
-    public static Boolean CHARLIE(int i){
-        if(i==1){
-            return true;
-        }else{
-            return false;
-        }
-    }
 }

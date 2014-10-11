@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Ryan's Mod",
+  "name": "Ryan's Mod",
+  "description": "Example placeholder mod.",
+  "version": "Alpha 0.0.0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Ryanr_007", "GLITCHKING007"],
+  "credits": "Ryanr_007 and GLITCHKING007 for making this mod.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

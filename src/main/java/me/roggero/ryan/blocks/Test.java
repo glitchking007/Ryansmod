@@ -14,5 +14,6 @@ public class Test extends Block{
         setCreativeTab(CreativeTabs.tabBlock);
         GameRegistry.registerBlock(this,name);
         setBlockTextureName(Main.MODID + ":" + name);
+        setHardness(20);
     }
 }

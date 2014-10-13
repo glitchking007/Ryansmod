@@ -2,14 +2,14 @@
 {
   "modid": "Ryan's Mod",
   "name": "Ryan's Mod",
-  "description": "Example placeholder mod.",
+  "description": "Ryan's small useless Mod",
   "version": "Alpha 0.0.0.1",
   "mcversion": "1.7.10",
-  "url": "",
-  "updateUrl": "",
+  "url": "http://kzserver.tk/",
+  "updateUrl": "http://kzserver.tk:8080/",
   "authorList": ["Ryanr_007", "GLITCHKING007"],
   "credits": "Ryanr_007 and GLITCHKING007 for making this mod.",
-  "logoFile": "",
+  "logoFile": "NONE",
   "screenshots": [],
   "dependencies": []
 }

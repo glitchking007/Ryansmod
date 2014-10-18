@@ -3,11 +3,14 @@ package me.roggero.ryan;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
-import me.roggero.ryan.blocks.blocks;
+import me.roggero.ryan.blocks.modblocks;
 import me.roggero.ryan.generator.oregen;
-import me.roggero.ryan.items.items;
+import me.roggero.ryan.items.moditems;
+import net.minecraft.creativetab.CreativeTabs;
 
 @Mod(modid=Main.MODID, version=Main.VERSION)
 public class Main{
@@ -20,10 +23,15 @@ public class Main{
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-        blocks.init();
-        items.init();
+        modblocks.preinit();
+        moditems.preinit();
         GameRegistry.registerWorldGenerator(new oregen(),10);
         System.out.println("RYAN ROGGERO IS MY MASTER!");
         proxy.registerRenderers();
+    }
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event){
+        modblocks.init();
+        moditems.init();
     }
 }

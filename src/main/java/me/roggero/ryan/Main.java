@@ -14,12 +14,12 @@ import net.minecraft.creativetab.CreativeTabs;
 
 @Mod(modid=Main.MODID, version=Main.VERSION)
 public class Main{
-    @Instance(value="Ryan's Mod")
+    @Instance(value="ryansmod")
     public static Main instance;
     @SidedProxy(clientSide="me.roggero.ryan.CProxy", serverSide="me.roggero.ryan.SProxy")
     public static SProxy proxy;
     public static final String MODID="ryansmod";
-    public static final String VERSION="Alpha 0.0.0.1";
+    public static final String VERSION="@VERSION@";
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){

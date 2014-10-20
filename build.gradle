@@ -14,7 +14,7 @@ buildscript {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
 }
-
+env = system.getenv()
 apply plugin: 'forge'
 
 if (System.getenv("BUILD_NUMBER") != null) {
@@ -22,7 +22,6 @@ if (System.getenv("BUILD_NUMBER") != null) {
 } else {
         version = "0.0.0.1"
 }
-version = "0.0.0.1"
 group= "me.roggero.ryan" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "Ryan's Mod"
 

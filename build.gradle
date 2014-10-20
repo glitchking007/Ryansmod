@@ -18,9 +18,6 @@ apply plugin: 'forge'
 
 if (System.getenv("BUILD_NUMBER") != null) {
         version = "0.1." + System.getenv("BUILD_NUMBER")
-        
-    replaceIn "src/main/resources/mcmod.info"
-    replace "@VERSION@", version
 } else {
         version = "0.1.1"
 }
@@ -30,6 +27,9 @@ archivesBaseName = "Ryan's Mod"
 minecraft {
     version = "1.7.10-10.13.2.1231"
     runDir = "eclipse/assets"
+    replaceIn "src/main/resources/mcmod.info"
+    replace "@VERSION@", project.version
+    replace "@MCVERSION@", project.minecraft.version
 }
 
 dependencies {

@@ -14,7 +14,6 @@ buildscript {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
 }
-env = system.getenv()
 apply plugin: 'forge'
 
 if (System.getenv("BUILD_NUMBER") != null) {

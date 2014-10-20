@@ -3,7 +3,7 @@
   "modid": "Ryan's Mod",
   "name": "Ryan's Mod",
   "description": "Ryan's small useless Mod",
-  "version": "Alpha 0.0.0.1",
+  "version": "@VERSION@",
   "mcversion": "1.7.10",
   "url": "http://glitchking007.tk/",
   "updateUrl": "http://glitchking007.tk:8080/",

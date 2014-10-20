@@ -1,10 +1,10 @@
 [
 {
-  "modid": "Ryansmod",
+  "modid": "ryansmod",
   "name": "Ryan's Mod",
   "description": "Ryan's small useless Mod",
   "version": "@VERSION@",
-  "mcversion": "@MCVERSION",
+  "mcversion": "@MCVERSION@",
   "url": "http://glitchking007.tk/",
   "updateUrl": "http://glitchking007.tk:8080/",
   "authorList": ["Ryanr_007", "GLITCHKING007"],

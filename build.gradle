@@ -18,6 +18,9 @@ apply plugin: 'forge'
 
 if (System.getenv("BUILD_NUMBER") != null) {
         version = "0.1." + System.getenv("BUILD_NUMBER")
+        
+    replaceIn "src/main/resources/mcmod.info"
+    replace "@VERSION@", version
 } else {
         version = "0.1.1"
 }
@@ -44,7 +47,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
 }
-
+minecraft {
+}
 processResources
 {
     // this will ensure that this task is redone when the versions change.

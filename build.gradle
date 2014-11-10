@@ -25,7 +25,8 @@ group= "me.roggero.ryan" // http://maven.apache.org/guides/mini/guide-naming-con
 archivesBaseName = "Ryan's Mod"
 
 minecraft {
-    version = "1.7.10-10.13.2.1231"
+    version = "1.7.10-10.13.2.1235"
+    runDir = "eclipse/assets"
     runDir = "eclipse/assets"
 }
 

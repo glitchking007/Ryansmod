@@ -12,8 +12,7 @@ public final class moditems{
     }
 
     public static void init(){
-        ItemStack ryan = new ItemStack(testingot);
-        ryan.setItemDamage(1);
+        ItemStack ryan = new ItemStack(testingot,1);
         GameRegistry.addSmelting(modblocks.Test,ryan,0.1f);
     }
 }

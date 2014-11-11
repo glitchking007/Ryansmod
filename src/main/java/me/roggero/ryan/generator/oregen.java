@@ -1,7 +1,7 @@
 package me.roggero.ryan.generator;
 
 import cpw.mods.fml.common.IWorldGenerator;
-import me.roggero.ryan.stuff.blocks.modblocks;
+import me.roggero.ryan.blocks.modblocks;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
@@ -22,15 +22,15 @@ public class oregen implements IWorldGenerator{
     }
 
     private void generateNether(Random random,World world,int X,int Y){
-        //addOres(block, world, random, X, Y, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y)
+
     }
 
     private void generateEnd(Random random,World world,int X,int Y){
-        //addOres(block, world, random, X, Y, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y)
+
     }
 
     private void generateOverworld(Random random,World world,int X,int Y){
-        //addOres(block, world, random, X, Y, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y)
+        //addOres(block, world, random, X, Y, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y
         addOres(modblocks.Test, world, random, X, Y, 1, 5, 25, 0, 50);
     }
     public void addOres(Block block, World world, Random rand, int bXpos, int bZpos, int minVsize, int maxVsize, int chance, int minY, int maxY){

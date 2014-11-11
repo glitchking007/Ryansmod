@@ -1,4 +1,4 @@
-package me.roggero.ryan.stuff.blocks;
+package me.roggero.ryan.blocks;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import me.roggero.ryan.Main;

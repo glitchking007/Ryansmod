@@ -4,13 +4,12 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
-import me.roggero.ryan.blocks.modblocks;
+import me.roggero.ryan.stuff.blocks.modblocks;
 import me.roggero.ryan.generator.oregen;
-import me.roggero.ryan.items.moditems;
-import net.minecraft.creativetab.CreativeTabs;
+import me.roggero.ryan.stuff.items.moditems;
+import me.roggero.ryan.stuff.recipes;
 
 @Mod(modid=Main.MODID, version=Main.VERSION)
 public class Main{
@@ -23,6 +22,7 @@ public class Main{
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
+        recipes.recipes();
         modblocks.preinit();
         moditems.preinit();
         GameRegistry.registerWorldGenerator(new oregen(),10);

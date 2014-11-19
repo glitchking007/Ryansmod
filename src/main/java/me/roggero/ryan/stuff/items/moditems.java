@@ -7,7 +7,6 @@ public final class moditems{
     public static Item ryanium_ingot;
     public static void preinit(){
         ryanium_ingot = new ryaniumingot();
-        LanguageRegistry.addName(ryanium_ingot,"Ryanium Ingot");
     }
 
     public static void init(){

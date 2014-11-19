@@ -9,8 +9,6 @@ public final class modblocks{
     public static void preinit(){
         ryanium_block = new ryaniumblock();
         ryanium_ore = new ryaniumore();
-        LanguageRegistry.addName(ryanium_block,"Ryanium Block");
-        LanguageRegistry.addName(ryanium_ore,"Ryanium Ore");
     }
     public static void init(){
     }

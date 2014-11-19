@@ -1,2 +1,3 @@
-tile.ryansmod_test.name=Test
-item.ryansmod_testingot.name=Test Ingot
+tile.ryansmod_ryanium_ore.name=Ryanium Ore
+item.ryansmod_ryanium_ingot.name=Ryanium Ingot
+tile.ryansmod_ryanium_block.name=Ryanium Block

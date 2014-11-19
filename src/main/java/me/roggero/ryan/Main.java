@@ -22,7 +22,6 @@ public class Main{
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-        recipes.recipes();
         modblocks.preinit();
         moditems.preinit();
         GameRegistry.registerWorldGenerator(new oregen(),10);
@@ -31,6 +30,7 @@ public class Main{
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
+        recipes.recipes();
         modblocks.init();
         moditems.init();
     }

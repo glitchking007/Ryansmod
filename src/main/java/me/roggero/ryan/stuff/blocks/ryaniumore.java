@@ -6,9 +6,9 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
-public class Test extends Block{
-    public final String name = "test";
-    public Test(){
+public class ryaniumore extends Block{
+    public final String name = "ryanium_ore";
+    public ryaniumore(){
         super(Material.rock);
         setBlockName(Main.MODID + "_" + name);
         setCreativeTab(CreativeTabs.tabBlock);

@@ -1,11 +1,13 @@
 package me.roggero.ryan.stuff.items;
 
+import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.item.Item;
 
 public final class moditems{
-    public static Item testingot;
+    public static Item ryanium_ingot;
     public static void preinit(){
-        testingot = new ingottest();
+        ryanium_ingot = new ryaniumingot();
+        LanguageRegistry.addName(ryanium_ingot,"Ryanium Ingot");
     }
 
     public static void init(){

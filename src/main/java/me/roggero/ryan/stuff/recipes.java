@@ -5,9 +5,6 @@ import me.roggero.ryan.stuff.blocks.modblocks;
 import net.minecraft.item.ItemStack;
 import me.roggero.ryan.stuff.items.moditems;
 
-/**
- * Created by Ryan on 11/10/2014.
- */
 public final class recipes{
     public static void recipes(){
         ItemStack ryan=new ItemStack(moditems.testingot,1);

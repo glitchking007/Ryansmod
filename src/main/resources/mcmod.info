@@ -6,7 +6,7 @@
   "version": "@VERSION@",
   "mcversion": "@MCVERSION@",
   "url": "http://glitchking007.tk/",
-  "updateUrl": "http://glitchking007.tk:8080/",
+  "updateUrl": "http://glitchking007.tk/jenkins/",
   "authorList": ["Ryanr_007", "GLITCHKING007"],
   "credits": "Ryanr_007 and GLITCHKING007 for making this mod.",
   "logoFile": "NONE",

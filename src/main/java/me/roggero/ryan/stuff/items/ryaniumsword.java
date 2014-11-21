@@ -12,7 +12,7 @@ public class ryaniumsword extends ItemSword{
     public ryaniumsword(ToolMaterial material){
         super(material);
         setMaxDamage(93);
-        setUnlocalizedName(name);
+        setUnlocalizedName(Main.MODID+"_"+name);
         setCreativeTab(CreativeTabs.tabCombat);
         GameRegistry.registerItem(this,name);
         setTextureName(Main.MODID+":"+name);

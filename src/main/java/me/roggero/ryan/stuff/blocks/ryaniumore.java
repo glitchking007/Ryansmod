@@ -1,7 +1,7 @@
 package me.roggero.ryan.stuff.blocks;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import me.roggero.ryan.Main;
+import me.roggero.ryan.Ryansmod;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -10,10 +10,10 @@ public class ryaniumore extends Block{
     public final String name = "ryanium_ore";
     public ryaniumore(){
         super(Material.rock);
-        setBlockName(Main.MODID + "_" + name);
+        setBlockName(Ryansmod.MODID + "_" + name);
         setCreativeTab(CreativeTabs.tabBlock);
         GameRegistry.registerBlock(this,name);
-        setBlockTextureName(Main.MODID + ":" + name);
+        setBlockTextureName(Ryansmod.MODID + ":" + name);
         setHardness(20);
     }
 }

@@ -2,10 +2,8 @@ package me.roggero.ryan.stuff;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import me.roggero.ryan.stuff.blocks.modblocks;
-import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
 import me.roggero.ryan.stuff.items.moditems;
-import net.minecraftforge.oredict.OreDictionary;
 
 public final class recipes{
     public static void recipes(){

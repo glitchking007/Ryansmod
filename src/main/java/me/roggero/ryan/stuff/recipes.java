@@ -8,8 +8,6 @@ import me.roggero.ryan.stuff.items.moditems;
 
 public final class recipes{
     public static void recipes(){
-        if(Ryansmod.TC){
-        }
         ItemStack ingot=new ItemStack(moditems.ryanium_ingot);
         ItemStack block=new ItemStack(modblocks.ryanium_block);
         ItemStack ore=new ItemStack(modblocks.ryanium_ore);

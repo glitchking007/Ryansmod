@@ -1,6 +1,5 @@
 package me.roggero.ryan;
 
-import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
@@ -14,7 +13,6 @@ import me.roggero.ryan.stuff.recipes;
 
 @Mod(modid=Ryansmod.MODID, version=Ryansmod.VERSION)
 public class Ryansmod{
-    public static boolean TC =Loader.isModLoaded("TConstruct");
     @Instance(value="ryansmod")
     public static Ryansmod instance;
     @SidedProxy(clientSide="me.roggero.ryan.CProxy", serverSide="me.roggero.ryan.SProxy")

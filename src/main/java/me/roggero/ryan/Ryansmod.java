@@ -18,7 +18,7 @@ public class Ryansmod{
     @SidedProxy(clientSide="me.roggero.ryan.CProxy", serverSide="me.roggero.ryan.SProxy")
     public static SProxy proxy;
     public static final String MODID="ryansmod";
-    public static final String VERSION="0.1.1";
+    public static final String VERSION="${version}";
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){

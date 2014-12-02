@@ -27,6 +27,7 @@ archivesBaseName = "Ryan's Mod"
 minecraft {
     version = "1.7.10-10.13.2.1236"
     runDir = "eclipse/assets"
+    replace '${version}', project.version
 }
 
 dependencies {

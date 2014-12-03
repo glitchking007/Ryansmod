@@ -11,10 +11,9 @@ public class ryaniumaxe extends ItemAxe{
 
     public ryaniumaxe(ToolMaterial mat){
         super(mat);
-        setUnlocalizedName(Ryansmod.MODID + ":" + name);
+        setUnlocalizedName(Ryansmod.MODID + "_" + name);
         setMaxDamage(93);
         setCreativeTab(CreativeTabs.tabTools);
-        setUnlocalizedName(Ryansmod.MODID + "_" + name);
         GameRegistry.registerItem(this,name);
         //setTextureName(Ryansmod.MODID + ":" + name);
     }

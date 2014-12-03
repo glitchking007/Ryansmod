@@ -16,7 +16,6 @@ public class ryaniumsword extends ItemSword{
         setCreativeTab(CreativeTabs.tabCombat);
         GameRegistry.registerItem(this,name);
         //setTextureName(Ryansmod.MODID+ ":" +name);
-        setUnlocalizedName(Ryansmod.MODID + ":" + name);
     }
 
 }

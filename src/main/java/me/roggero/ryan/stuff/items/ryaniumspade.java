@@ -16,6 +16,5 @@ public class ryaniumspade extends ItemSpade{
         setUnlocalizedName(Ryansmod.MODID + "_" + name);
         GameRegistry.registerItem(this,name);
         //setTextureName(Ryansmod.MODID + ":" + name);
-        setUnlocalizedName(Ryansmod.MODID + ":" + name);
     }
 }

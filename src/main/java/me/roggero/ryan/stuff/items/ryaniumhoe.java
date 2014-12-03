@@ -15,7 +15,6 @@ public class ryaniumhoe extends ItemHoe{
         setCreativeTab(CreativeTabs.tabTools);
         setUnlocalizedName(Ryansmod.MODID + "_" + name);
         GameRegistry.registerItem(this,name);
-        setUnlocalizedName(Ryansmod.MODID + ":" + name);
         //setTextureName(Ryansmod.MODID + ":" + name);
     }
 }

@@ -1,6 +1,8 @@
 package me.roggero.ryan;
 
+import net.minecraft.block.state.IBlockState;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -13,7 +15,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid=Ryansmod.MODID, version=Ryansmod.VERSION)
 public class Ryansmod{
-    @Mod.Instance(value="ryansmod")
+    @Instance(value="ryansmod")
     private static Ryansmod instance;
     @SidedProxy(clientSide="me.roggero.ryan.CProxy", serverSide="me.roggero.ryan.SProxy")
     public static SProxy proxy;

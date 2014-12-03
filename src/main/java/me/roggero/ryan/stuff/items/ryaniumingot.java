@@ -15,6 +15,5 @@ public class ryaniumingot extends Item{
         GameRegistry.registerItem(this,name);
         //setTextureName(Ryansmod.MODID+":"+name);
         setMaxStackSize(64);
-        setUnlocalizedName(Ryansmod.MODID + ":" + name);
     }
 }

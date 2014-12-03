@@ -18,9 +18,9 @@ buildscript {
 apply plugin: 'forge'
 
 if (System.getenv("BUILD_NUMBER") != null) {
-        version = "0.1." + System.getenv("BUILD_NUMBER")
+        version = "0.2." + System.getenv("BUILD_NUMBER")
 } else {
-        version = "0.1.1"
+        version = "0.2.1"
 }
 group= "me.roggero.ryan" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "Ryan's Mod"

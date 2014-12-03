@@ -1,6 +1,5 @@
 package me.roggero.ryan.stuff.blocks;
 
-import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.block.Block;
 
 public final class modblocks{

@@ -1,9 +1,9 @@
 package me.roggero.ryan.stuff.items;
 
-import cpw.mods.fml.common.registry.GameRegistry;
 import me.roggero.ryan.Ryansmod;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSword;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ryaniumsword extends ItemSword{
 
@@ -15,7 +15,8 @@ public class ryaniumsword extends ItemSword{
         setUnlocalizedName(Ryansmod.MODID+"_"+name);
         setCreativeTab(CreativeTabs.tabCombat);
         GameRegistry.registerItem(this,name);
-        setTextureName(Ryansmod.MODID+ ":" +name);
+        //setTextureName(Ryansmod.MODID+ ":" +name);
+        setUnlocalizedName(Ryansmod.MODID + ":" + name);
     }
 
 }

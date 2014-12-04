@@ -1,9 +1,9 @@
 package me.roggero.ryan.stuff.items;
 
-import cpw.mods.fml.common.registry.GameRegistry;
 import me.roggero.ryan.Ryansmod;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ryaniumingot extends Item{
 
@@ -13,7 +13,6 @@ public class ryaniumingot extends Item{
         setUnlocalizedName(Ryansmod.MODID+"_"+name);
         setCreativeTab(CreativeTabs.tabMaterials);
         GameRegistry.registerItem(this,name);
-        setTextureName(Ryansmod.MODID+":"+name);
         setMaxStackSize(64);
     }
 }

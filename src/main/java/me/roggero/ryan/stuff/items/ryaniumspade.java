@@ -1,9 +1,9 @@
 package me.roggero.ryan.stuff.items;
 
-import cpw.mods.fml.common.registry.GameRegistry;
 import me.roggero.ryan.Ryansmod;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSpade;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ryaniumspade extends ItemSpade{
 
@@ -15,6 +15,5 @@ public class ryaniumspade extends ItemSpade{
         setCreativeTab(CreativeTabs.tabTools);
         setUnlocalizedName(Ryansmod.MODID + "_" + name);
         GameRegistry.registerItem(this,name);
-        setTextureName(Ryansmod.MODID + ":" + name);
     }
 }

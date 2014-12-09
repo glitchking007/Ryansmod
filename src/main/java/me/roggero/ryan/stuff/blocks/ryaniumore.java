@@ -13,7 +13,6 @@ public class ryaniumore extends Block{
         setUnlocalizedName(Ryansmod.MODID+"_"+name);
         setCreativeTab(CreativeTabs.tabBlock);
         GameRegistry.registerBlock(this,name);
-        //setBlockTextureName(Ryansmod.MODID + ":" + name);
         setHardness(20);
     }
 }

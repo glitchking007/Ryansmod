@@ -21,17 +21,17 @@ public class oregen implements IWorldGenerator{
         }
     }
 
-    private void generateNether(Random random,World world,int X,int Y){
-        //addOres(block, world, random, X, Y, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y)
+    private void generateNether(Random random,World world,int X,int Z){
+        //addOres(block, world, random, X, Z, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y)
     }
 
-    private void generateEnd(Random random,World world,int X,int Y){
-        //addOres(block, world, random, X, Y, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y)
+    private void generateEnd(Random random,World world,int X,int Z){
+        //addOres(block, world, random, X, Z, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y)
     }
 
-    private void generateOverworld(Random random,World world,int X,int Y){
-        //addOres(block, world, random, X, Y, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y)
-        addOres(modblocks.ryanium_ore, world, random, X, Y, 1, 5, 25, 0, 50);
+    private void generateOverworld(Random random,World world,int X,int Z){
+        //addOres(block, world, random, X, Z, Min Vain Size, Max Vein Size, Chance, Min Y, Maz Y)
+        addOres(modblocks.ryanium_ore, world, random, X, Z, 1, 5, 25, 0, 50);
     }
     public void addOres(Block block, World world, Random rand, int bXpos, int bZpos, int minVsize, int maxVsize, int chance, int minY, int maxY){
         WorldGenMinable minable = new WorldGenMinable(block, (minVsize + rand.nextInt(maxVsize - minVsize)), Blocks.stone);

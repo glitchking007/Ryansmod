@@ -14,12 +14,13 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid=Ryansmod.MODID, version=Ryansmod.VERSION)
 public class Ryansmod{
-    @Instance(value="ryansmod")
-    private static Ryansmod instance;
-    @SidedProxy(clientSide="me.roggero.ryan.CProxy", serverSide="me.roggero.ryan.SProxy")
-    public static SProxy proxy;
     public static final String MODID="ryansmod";
     public static final String VERSION="${version}";
+    @SidedProxy(clientSide="me.roggero.ryan.CProxy", serverSide="me.roggero.ryan.SProxy")
+    public static SProxy proxy;
+    @Instance(value="ryansmod")
+    private static Ryansmod instance;
+
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
         modblocks.preinit();
@@ -27,6 +28,7 @@ public class Ryansmod{
         GameRegistry.registerWorldGenerator(new oregen(),10);
         System.out.println("RYAN ROGGERO IS MY MASTER!");
     }
+
     @EventHandler
     public void init(FMLInitializationEvent event){
         proxy.registerRenderers();

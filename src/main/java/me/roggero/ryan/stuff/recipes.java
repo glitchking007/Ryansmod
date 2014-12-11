@@ -16,12 +16,12 @@ public final class recipes{
         ItemStack pick=new ItemStack(moditems.ryanium_pickaxe);
         ItemStack axe=new ItemStack(moditems.ryanium_axe);
         GameRegistry.addSmelting(modblocks.ryanium_ore,ingot,0.1f);
-        GameRegistry.addShapedRecipe(block,new Object[]{"aaa","aaa","aaa",'a',ingot});
-        GameRegistry.addShapelessRecipe(new ItemStack(moditems.ryanium_ingot,9),new Object[]{block});
-        GameRegistry.addShapedRecipe(sword,new Object[]{"a","a","b",'a',ingot,'b',net.minecraft.item.Item.getItemById(280)});
-        GameRegistry.addShapedRecipe(axe,new Object[]{"aa ","ab "," b ",'a',ingot,'b',net.minecraft.item.Item.getItemById(280)});
-        GameRegistry.addShapedRecipe(hoe,new Object[]{"aa "," b "," b ",'a',ingot,'b',net.minecraft.item.Item.getItemById(280)});
-        GameRegistry.addShapedRecipe(pick,new Object[]{"aaa"," b "," b ",'a',ingot,'b',net.minecraft.item.Item.getItemById(280)});
-        GameRegistry.addShapedRecipe(spade,new Object[]{" a "," b "," b ",'a',ingot,'b',net.minecraft.item.Item.getItemById(280)});
+        GameRegistry.addShapedRecipe(block,"aaa","aaa","aaa",'a',ingot);
+        GameRegistry.addShapelessRecipe(new ItemStack(moditems.ryanium_ingot,9),block);
+        GameRegistry.addShapedRecipe(sword,"a","a","b",'a',ingot,'b',net.minecraft.item.Item.getItemById(280));
+        GameRegistry.addShapedRecipe(axe,"aa ","ab "," b ",'a',ingot,'b',net.minecraft.item.Item.getItemById(280));
+        GameRegistry.addShapedRecipe(hoe,"aa "," b "," b ",'a',ingot,'b',net.minecraft.item.Item.getItemById(280));
+        GameRegistry.addShapedRecipe(pick,"aaa"," b "," b ",'a',ingot,'b',net.minecraft.item.Item.getItemById(280));
+        GameRegistry.addShapedRecipe(spade," a "," b "," b ",'a',ingot,'b',net.minecraft.item.Item.getItemById(280));
     }
 }

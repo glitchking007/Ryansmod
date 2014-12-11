@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ryaniumsword extends ItemSword{
 
-    public final String name = "ryanium_sword";
+    public final String name="ryanium_sword";
 
     public ryaniumsword(ToolMaterial material){
         super(material);

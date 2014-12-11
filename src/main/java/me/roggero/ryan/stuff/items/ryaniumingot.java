@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ryaniumingot extends Item{
 
-    public final String name = "ryanium_ingot";
+    public final String name="ryanium_ingot";
 
     public ryaniumingot(){
         setUnlocalizedName(Ryansmod.MODID+"_"+name);

@@ -7,13 +7,13 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ryaniumhoe extends ItemHoe{
 
-    public final String name = "ryanium_hoe";
-    
+    public final String name="ryanium_hoe";
+
     public ryaniumhoe(ToolMaterial mat){
         super(mat);
         setMaxDamage(93);
         setCreativeTab(CreativeTabs.tabTools);
-        setUnlocalizedName(Ryansmod.MODID + "_" + name);
+        setUnlocalizedName(Ryansmod.MODID+"_"+name);
         GameRegistry.registerItem(this,name);
     }
 }

@@ -7,10 +7,11 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ryaniumblock extends Block{
-    public final String name = "ryanium_block";
+    public final String name="ryanium_block";
+
     public ryaniumblock(){
         super(Material.iron);
-        setUnlocalizedName(Ryansmod.MODID + "_" + name);
+        setUnlocalizedName(Ryansmod.MODID+"_"+name);
         setCreativeTab(CreativeTabs.tabBlock);
         GameRegistry.registerBlock(this,name);
         setHardness(25);

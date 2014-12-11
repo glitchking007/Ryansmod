@@ -7,11 +7,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ryaniumaxe extends ItemAxe{
 
-    public final String name = "ryanium_axe";
+    public final String name="ryanium_axe";
 
     public ryaniumaxe(ToolMaterial mat){
         super(mat);
-        setUnlocalizedName(Ryansmod.MODID + "_" + name);
+        setUnlocalizedName(Ryansmod.MODID+"_"+name);
         setMaxDamage(93);
         setCreativeTab(CreativeTabs.tabTools);
         GameRegistry.registerItem(this,name);

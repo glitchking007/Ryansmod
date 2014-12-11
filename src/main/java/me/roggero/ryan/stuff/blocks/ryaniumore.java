@@ -7,7 +7,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ryaniumore extends Block{
-    public final String name = "ryanium_ore";
+    public final String name="ryanium_ore";
+
     public ryaniumore(){
         super(Material.rock);
         setUnlocalizedName(Ryansmod.MODID+"_"+name);
